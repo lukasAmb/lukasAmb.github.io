@@ -1,5 +1,59 @@
-/* style.css */
-
 body {
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.character {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
